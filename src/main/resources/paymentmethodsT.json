@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PUNKTY",
+    "discount": "15",
+    "limit": "1400.00"
+  },
+  {
+    "id": "Bank7",
+    "discount": "7",
+    "limit": "170.00"
+  },
+  {
+    "id": "Bank8",
+    "discount": "8",
+    "limit": "180.00"
+  },
+  {
+    "id": "Bank9",
+    "discount": "9",
+    "limit": "190.00"
+  },
+  {
+    "id": "Bank10",
+    "discount": "10",
+    "limit": "200.00"
+  },
+  {
+    "id": "Bank11",
+    "discount": "11",
+    "limit": "210.00"
+  },
+  {
+    "id": "Bank12",
+    "discount": "12",
+    "limit": "220.00"
+  },
+  {
+    "id": "Bank13",
+    "discount": "13",
+    "limit": "230.00"
+  },
+  {
+    "id": "Bank14",
+    "discount": "14",
+    "limit": "240.00"
+  },
+  {
+    "id": "Bank15",
+    "discount": "15",
+    "limit": "250.00"
+  },
+  {
+    "id": "Bank16",
+    "discount": "16",
+    "limit": "260.00"
+  },
+  {
+    "id": "Bank17",
+    "discount": "17",
+    "limit": "270.00"
+  }
+]

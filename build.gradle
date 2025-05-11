@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'org.example.Main'
+}
+
+tasks.withType(Jar) {
+    manifest {
+        attributes(
+                'Main-Class': 'org.example.Main'
+        )
+    }
+}
+
+shadowJar {
+    archiveBaseName.set('OcadoTask-all')
+    archiveClassifier.set('')
+    archiveVersion.set('1.0-SNAPSHOT')
+    manifest {
+        attributes 'Main-Class': 'org.example.Main'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'com.google.code.gson:gson:2.10'
+}
+
+test {
+    useJUnitPlatform()
+}
